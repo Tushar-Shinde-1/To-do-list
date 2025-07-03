@@ -28,7 +28,7 @@ A Node.js application using Express, PostgreSQL, and EJS templating to manage a 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/permalist.git
+git clone [https://github.com/your-username/permalist](https://github.com/Tushar-Shinde-1/To-do-list).git
 cd permalist
 ```
 
@@ -65,7 +65,7 @@ const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "permalist",
-  password: "Tushar#118",
+  password: "xyz",
   port: 5432,
 });
 ```
@@ -93,5 +93,7 @@ permalist/
 ├── index.js              # Main server file
 ├── package.json
 └── README.md
+|__queries.sql
+
 ```
 ,
