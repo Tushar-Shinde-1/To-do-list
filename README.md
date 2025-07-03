@@ -28,8 +28,8 @@ A Node.js application using Express, PostgreSQL, and EJS templating to manage a 
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/your-username/permalist](https://github.com/Tushar-Shinde-1/To-do-list).git
-cd permalist
+git clone https://github.com/Tushar-Shinde-1/To-do-list.git
+cd To-do-list
 ```
 
 
@@ -43,19 +43,9 @@ npm install
 3. Set up PostgreSQL
    
 Database Configuration:
-Create a PostgreSQL database and table using the following SQL:
+Create a PostgreSQL database and table using the queries mentioned in queries.sql file
 
-```sql
 
-CREATE DATABASE permalist;
-
-\c permalist
-
-CREATE TABLE items (
-  id SERIAL PRIMARY KEY,
-  title TEXT NOT NULL
-);
-```
 
 Update your PostgreSQL credentials in index.js:
 
@@ -81,6 +71,7 @@ Then open your browser and go to:
 ```arduino
 
 http://localhost:3000
+```
 
 📁 Folder Structure
 ```pgsql
@@ -96,4 +87,4 @@ permalist/
 |__queries.sql
 
 ```
-,
+
